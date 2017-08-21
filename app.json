@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/buy/buy",
+    "pages/sell/sell",
+    "pages/sell/sell_complete"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "里尔通",
+    "navigationBarTextStyle":"black"
+  }
+}

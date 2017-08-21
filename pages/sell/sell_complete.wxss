@@ -1,0 +1,73 @@
+/**index.wxss**/
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 30rpx 0;
+  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);  
+}
+
+.logo-name {
+  font-style: italic;
+  font-size: 14px;
+  color: #fff;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 20px;
+  margin: 30rpx;
+}
+
+.sell {
+  width: 680rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 90%;
+  margin: 100rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 20rpx;
+  overflow: hidden;
+  background: #fff;
+}
+
+.item-img {
+  width: 100%; 
+  height: 300rpx; 
+  background-color: #eeeeee; 
+}
+.item-title {
+  width: 100%;
+  max-width: 100%;
+  margin: 10rpx;
+  text-align: center;
+}
+
+.item-price {
+  margin: 10rpx;
+  text-align: center;
+}
+
+.option {
+  margin-top: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  margin: 7px;
+  width: 75%;
+}

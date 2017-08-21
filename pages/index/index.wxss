@@ -1,0 +1,68 @@
+/**index.wxss**/
+.head {
+  width: 100%;
+  padding: 30rpx 0;
+  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);  
+}
+
+.logo-name {
+  font-style: italic;
+  font-size: 14px;
+  color: #fff;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+}
+
+.block-head {
+  margin-bottom: 10px;
+}
+.block-name {
+  color: #aaa;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.buyandsell {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-top: 1px #ccc solid; */
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  width: 75%;
+}
+
+.lifeinfo {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-top: 1px #ccc solid; */
+  margin-top: 20px;
+}
+
+.block-content {
+
+  padding: 150rpx;
+  font-size: 14px;
+  color: #aaa;
+}

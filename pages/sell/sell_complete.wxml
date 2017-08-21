@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="head">
+    <text class="logo-name">#LillePartout</text>
+    <text class="page-title">用不着的东西就卖掉吧：）</text>
+  </view>
+  <view class="sell">
+    <view class="item">
+      <icon type="success" size="70"/>
+      <text style="margin: 10px">发布成功</text>
+    </view>
+    <view class="option">
+      <button open-type="share" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}">分享我的出售页面</button>
+      <button bindtap="bindBack" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}">返回到主页</button>
+    </view>
+  </view>
+</view>

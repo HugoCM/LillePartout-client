@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="head">
+    <text class="logo-name">#LillePartout</text>
+    <text class="page-title">用不着的东西就卖掉吧：）</text>
+  </view>
+  <view class="sell">
+    <view class="item">
+      <image class="item-img" mode="aspectFill" src="{{img}}"></image>
+      <view class="item-title">
+       <input maxlength="10" placeholder="物品名称" bindinput="bindInputName" type="text" />
+      </view>
+      <view class="item-price">
+        <input maxlength="5" placeholder="价格(€)" bindinput="bindInputPrice" type="text" />
+      </view>
+    </view>
+    <view class="option">
+      <button bindtap="bindPublish" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}">发布</button>
+      <button bindtap="bindCancel" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}">取消</button>
+    </view>
+  </view>
+</view>

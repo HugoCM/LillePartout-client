@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="head">
+    <view  bindtap="bindViewTap" class="userinfo">
+      <text class="logo-name">#LillePartout</text>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <view class="buyandsell">
+    <view class="block-head">
+      <text class="block-name">二手交易</text>
+    </view>
+    <button bindtap="bindBuyTap" type="warn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"> 买东西 </button>
+    <button bindtap="bindSellTap" type="primary" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"> 卖东西 </button>
+  </view>
+  <view class="lifeinfo">
+    <view class="block-head">
+      <text class="block-name">生活信息</text>
+    </view>
+    <view class="block-content">
+      <text class="waiting">开发中，后续可能添加店铺、餐厅、酒吧、运动场馆等信息。</text>
+    </view>
+  </view>
+</view>
