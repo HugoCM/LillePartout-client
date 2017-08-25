@@ -21,7 +21,7 @@
       <text class="block-name">生活信息</text>
     </view>
     <view class="block-content">
-      <text class="waiting">开发中，后续可能添加店铺、餐厅、酒吧、运动场馆等信息。</text>
+      <text class="waiting">开发中...后续可能添加店铺、餐厅、酒吧、运动场馆等信息。</text>
     </view>
   </view>
 </view>
