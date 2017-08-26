@@ -28,6 +28,11 @@ Page({
       },
     })
   },
+  bindindexTap: function () {
+    wx.navigateTo({
+      url: '../index/index'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

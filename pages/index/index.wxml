@@ -24,4 +24,8 @@
       <text class="waiting">开发中...后续可能添加店铺、餐厅、酒吧、运动场馆等信息。</text>
     </view>
   </view>
+  <view class="refresh">
+    <button bindtap="bindindexTap" type="warn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"> 刷新 </button>
+  </view>>
 </view>

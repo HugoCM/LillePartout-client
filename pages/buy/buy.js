@@ -22,5 +22,14 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  //下拉刷新
+  onPullDownRefresh: function(){
+    wx.showNavigationBarLoading()
+    setTimeout(function(){
+      wx.hideNavigationBarLoading()
+      wx.stopPullDownRefresh()
+    },1500)
+    
   }
 })
