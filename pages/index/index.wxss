@@ -62,7 +62,8 @@ button {
 
 .block-content {
 
-  padding: 100rpx;
+  padding: 150rpx;
   font-size: 14px;
   color: #aaa;
+
 }
